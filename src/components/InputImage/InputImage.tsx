@@ -21,7 +21,7 @@ export const InputImage = (
 
   return (
     <div>
-      <input type="file" accept="image/*" onChange={handleChange} />
+      <input type="file" accept="image/*" onChange={handleChange} className="my-6" />
     </div>
   );
 }
